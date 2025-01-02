@@ -1,0 +1,372 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow-y: scroll;
+  }
+  
+  .section {
+    flex: 1;
+    height: auto; /* Each section will take 20% of the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+.hero-img{
+  height: 130vh;
+  width: 100%;
+}
+
+  /* .section1 {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/032/475/204/large_2x/beautiful-gyeongbokgung-palace-in-seoul-south-korea-gyeongbokgung-palace-with-cherry-blossom-tree-in-spring-time-in-seoul-city-of-korea-south-korea-ai-generated-free-photo.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+  } */
+  
+  .title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: Black;
+    font-size: 8.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    text-align: center;
+  }
+  
+  .sub-title {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    text-align: center;
+  }
+
+  .section2 {
+    background-image: url('https://img.freepik.com/premium-vector/pink-waves-background-illustration-template_619442-552.jpg?semt=ais_hybrid');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section2-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    color: white;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+    font-weight: bold;
+    text-align: left;
+    
+  }
+  
+  .text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: white;
+    
+  }
+  
+  .text p {
+    font-size: 2rem;
+    line-height: 1.5;
+    align-content: center;
+    
+  }
+  
+  .image {
+    width: 40%;
+    background-image: url('https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/imageedit_1_7397094047.jpg'); /* Replace with your image URL or path */
+    background-size: cover; /* Makes the image cover the entire section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the section takes the full viewport height */
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Section 3 Styling */
+.section3 {
+  background-image: url('https://img.freepik.com/premium-vector/flat-abstract-doodle-background-design_921039-23550.jpg'); /* Replace with your image URL or path */
+  background-size: cover; /* Makes the image cover the entire section */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+  gap: 20px; /* Space between the boxes */
+  width: 90%; /* Adjust container width */
+  max-width: 1200px; /* Prevent boxes from becoming too wide */
+}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to the boxes */
+  text-align: center;
+  border: 2px solid #ccc; /* Optional: Adds a light border */
+}
+
+.box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.icon{
+  width: 200px;
+  height: 200px;
+}
+.box p {
+  font-size: 1rem;
+  color: #555; /* Slightly darker text for better contrast */
+  line-height: 1.5;
+}
+
+.section4 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThlHT9KDcG4x2aQXCAEdlkVl7rkglmDeMsAyEczEGEZ6RSho36GOU-gZFf3Is3KMSPaoU&usqp=CAU');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  color: black;
+}
+
+.k-drama-text {
+  flex: 1;
+  padding: 20px;
+  font-weight: bold;
+  text-align: left;
+  
+}
+
+.k-drama-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+ 
+
+.k-drama-text p{
+  font-size: 1.3rem;
+  line-height: 1.3;
+  align-content: center;
+  
+} 
+  
+
+.image-drama {
+  width: 55%;
+  background-image: url('https://www.itl.cat/pngfile/big/37-375202_goblin-korean-drama.jpg'); /* Replace with your image URL or path */
+  background-size: cover; /* Makes the image cover the entire section */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Ensures the section takes the full viewport height */
+}
+  
+/* Section 5 Styling */
+.section5 {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.carousel-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Carousel Container */
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  height: auto;
+}
+
+/* Carousel Image */
+.carousel-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Circular Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background: lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.arrow:hover {
+  transform: scale(1.1);
+  background-color: lightpink;
+}
+
+.arrow-symbol {
+  color: rgb(154, 48, 48);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.left-arrow {
+  left: -80px; /* Position to the left of the image */
+}
+
+.right-arrow {
+  right: -80px; /* Position to the right of the image */
+}
+
+.section7 {
+ 
+  background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-culture {
+  width: 50%;
+  background-image: url('https://www.travelandtourworld.com/wp-content/uploads/2024/09/DALLE-2024-09-20-161627-A-vibrant-celebration-of-Korean-culture-featuring-people-in-traditional-Hanbok-clothing-performing-a-colorful-fan-dance-outdoors-The-setting-is-a-tr-850x850.jpg'); /* Replace with your image URL or path */
+  background-size: cover; /* Makes the image cover the entire section */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Ensures the section takes the full viewport height */
+}
+
+.k-culture-text {
+  flex: 1;
+  padding: 20px;
+  font-weight: bold;
+  text-align: left;
+  
+}
+
+.k-culture-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  
+  
+}
+ 
+.k-culture-text p{
+  font-size: 1.5rem;
+  line-height: 1.7;
+  align-content: center;
+  
+} 
+
+
+.section8 {
+  background-color: rgb(221, 220, 220);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: black;
+}
+
+.box-container-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Four equal columns */
+  gap: 20px; /* Space between the boxes */
+  width: 90%; /* Adjust container width */
+  max-width: 1200px; /* Prevent boxes from becoming too wide */
+}
+.box-1 {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to the boxes */
+  text-align: center;
+  border: 2px solid #ccc; /* Optional: Adds a light border */
+}
+
+.box-1 {
+  background-color: rgb(232, 218, 218);
+}
+.box-2 {
+  background-color: rgb(186, 146, 146);
+}
+.box-3 {
+  background-color: rgb(118, 98, 98);
+}
+
+.box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.icon{
+  width: 200px;
+  height: 200px;
+}
+.box p {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.5;
+}
+
+.section9 {
+  background-color: lightblue; /* Blue */
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-2{
+  height: 250px;
+  width: 170px;
+  padding: 20px;
+}
+
+.left-text{
+  text-align: left;
+}
+.section10{
+  background-color: black;
+}
